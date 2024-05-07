@@ -1,6 +1,8 @@
 import asyncio
 import logging
 
+from aiogram.client.default import DefaultBotProperties
+from aiogram.enums import ParseMode
 from aiogram import Bot, Dispatcher
 from config_data.config import Config, load_config
 from handlers import other_handlers, user_handlers
